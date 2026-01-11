@@ -1,0 +1,26 @@
+{
+    "name": "dwwm22/composer",
+    "description": "learn composer in php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"   
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi T",
+            "email": "mahdi-tillou@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^7.4"
+    },
+    "require": {
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
